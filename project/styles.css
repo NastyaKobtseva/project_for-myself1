@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.header_nav ul {
+    display: flex;
+}
+
+.header_nav {
+    padding-right: 1010px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+    padding-right: 30px;
+}
+
+a:hover {
+    color: #415AFF;
+}
+
+ul{
+    list-style: none;
+}
+
+.email-button, .email-button-two, .email-button-3 {
+    display: flex;
+    height: 65px;
+    padding-bottom: 10px;
+}
+
+.email-input, .email-input-two, .email-input-3 {
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border-color: #E3E7E2;
+}
+
+.submit-button, .submit-button-two, .submit-button-3 {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 20px 20px 0;
+    background-color: #415AFF;
+    color: white;
+    cursor: pointer;
+}
+
+.color-line {
+    height: 6.5px; 
+    width: 100%;
+    background: linear-gradient(to right, rgb(243, 129, 36), rgb(8, 89, 211), rgb(255, 255, 61), rgb(147, 147, 241), green, rgb(8, 89, 211), rgb(255, 255, 61), rgb(243, 129, 36), rgb(253, 155, 172), rgb(8, 89, 211), rgb(255, 255, 61), rgb(131, 174, 238), rgb(243, 129, 36), rgb(8, 89, 211), rgb(255, 255, 61), rgb(243, 129, 36));
+}
+
+.nice_wrapper, .text-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    flex-direction: column;
+    padding-left: 150px;
+}
+
+.nice {
+    padding-bottom: 40px;
+}
+
+.nice_h1 {
+    font-size: 55px;
+    padding-bottom: 50px;
+    padding-top: 70px;
+}
+
+.nice_text {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.p_text {
+    font-size: 13px;
+    color: #8D9499;
+}
+
+.all_h3, .featured-by-h3 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+    font-family: 'Roboto';
+}
+
+.all_h3 {
+    padding-right: 530px;
+}
+
+.text-know, .text-after-main {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.text-know, .text-after-main {
+    padding-bottom: 8px;
+}
+
+.s-trackers, .text-after-main-h3 {
+    padding-bottom: 20px;
+}
+
+.text-after-s-trackers, .text-after-main-h1 {
+    padding-bottom: 75px;
+}
+
+.s-trackers, .text-after-main-h3 {
+    font-size: 32px;
+}
+
+.text-after-s-trackers, .text-after-main-h1 {
+    font-size: 54px;
+}
+
+.mine-after-h1 {
+    font-size: 64px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.email-button-two {
+    padding-left: 70px;
+}
+
+.text-after-email-button-two {
+    font-size: 13px;
+    color: #8D9499;
+    padding-left: 70px;
+}
+
+.featured-by {
+    padding-bottom: 50px;
+}
+
+.text-people-after {
+    font-size: 32px;
+}
+
+.text-people-after_h1 {
+    font-size: 57px;
+}
+
+.text-tel-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: #9b9da3;
+    font-family: 'Roboto';
+}
+
+.after-text-did-you-know1 {
+    padding-right: 190px;
+}
+
+.after-text-did-you-know2 {
+    padding-left: 80px;
+}
+
+.text-tel-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.tel-1 {
+    padding-right: 112px
+}
+
+.featured-by-h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.photo-after-featured-by {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.text-block-all {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-know-trackers {
+    padding-left: 150px;
+}
+
+.text-main-after {
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.mine-after, .text-people-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-two, .text-button {
+    flex-direction: column;
+}
+
+.people {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 200px; 
+    padding-top: 50px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.margo-and-vivek {
+    padding-left: 71px;
+}
+
+.bill, .margo {
+    padding-top: 20px;
+}
+
+.text-after-people-love {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p-and-img-jeanie, .p-and-new-york, .p-and-img-Mike, .p-anf-img-forbes {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 290px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.boy-girl-pet-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boy-girl-h1-p {
+    flex-direction: column;
+}
+
+.content-footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-etc {
+    display: flex;
+    padding-left: 40px;
+}
+
+.after-social-network {
+    padding-top: 90px;
+}
+
+.but_block-all {
+    border: none;
+    width: 233px;
+    height: 72px;
+    background-color: #F5FF93;
+    border-radius: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.button-after-main {
+    border: none;
+    width: 233px;
+    height: 72px;
+    background-color: #F5FF93;
+    border-radius: 100px;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.button-after-h1-people {
+    border: none;
+    background-color: #F5FF93;
+    width: 176px;
+    height: 72px;
+    border-radius: 200px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.after-sridhar-photo, .after-margo-photo, .after-vivek-photo, .after-bill-photo {
+    font-size: 24px;
+}
+
+.after-sridhar, .after-margo, .after-vivek, .after-bill {
+    font-size: 20px;
+}
+
+.sridhar-and-bill, .margo-and-vivek {
+    text-align: left;
+}
+
+.h2-people-love {
+    font-size: 26px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.neeva1, .neeva2, .neeva3, .neeva4 {
+    font-size: 20px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.jeanie {
+    padding-top: 70px;
+    padding-right: 130px
+}
+
+.new-york {
+    padding-top: 100px;
+    padding-right: 40px;
+}
+
+.mike {
+    padding-top: 45px;
+    padding-right: 40px;
+}
+
+.forbes {
+    padding-top: 80px;
+    padding-right: 120px;
+}
+
+.after-boy-girl-pet {
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+
+.text-after-boy-girl-pet {
+    font-size: 13px;
+    color: #8D9499;
+}
+
+.boy-girl-h1-p {
+    padding-right: 180px;
+    padding-top: 40px;
+}
+
+.boy-girl {
+    padding-top: 40px;
+}
+
+.footer-menu-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.text-people-after {
+    padding-bottom: 29px;
+}
+
+.text-button {
+    padding-bottom: 50px;
+}
