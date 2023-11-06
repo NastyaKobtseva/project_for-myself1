@@ -59,6 +59,10 @@ ul{
     cursor: pointer;
 }
 
+.but_block-all, .button-after-main, .button-after-h1-people {
+    cursor: pointer;
+}
+
 .color-line {
     height: 6.5px; 
     width: 100%;
